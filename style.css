@@ -42,34 +42,44 @@ body {
 .testimonial-card {
     /* min-width: 200px; */
     max-width: 320px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px hsl(0, 0%, 0%, 0.1);
     border-radius: 0.5rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 1.3rem;
     /* align-items: center; */
 }
 
 .testimonial-card:nth-child(1) {
+    /* grid-area: testi-1; */
     background-color: var(--purple-500);
+    color: var(--grey-100);
 }
 
 .testimonial-card:nth-child(2) {
+    /* grid-area: testi-2; */
     background-color: var(--grey-500);
+    color: var(--grey-100);
 }
 
 .testimonial-card:nth-child(3) {
+    /* grid-area: testi-3; */
     background-color: var(--white);
+    color: var(--grey-500);
 }
 
 .testimonial-card:nth-child(4) {
+    /* grid-area: testi-4; */
     background-color: var(--dark-blue);
     color: var(--grey-200);
 }
 
 .testimonial-card:nth-child(5) {
+    /* grid-area: testi-5; */
     background-color: var(--white);
+    color: var(--grey-500);
 }
 
 .author {
