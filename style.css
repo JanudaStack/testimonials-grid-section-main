@@ -60,7 +60,15 @@ main {
     /* align-items: center; */
 }
 
+.bg-img img {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 80px;
+}
+
 .card-1 {
+    position: relative;
     color: var(--grey-100);
     background-color: var(--purple-500);
 }
@@ -128,6 +136,9 @@ figure img {
 }
 
 @media (min-width: 1024px) {
+    .bg-img img {
+        display: block;
+    }
     .testimonial-container {
         max-width: 1300px;
         align-items: unset;
