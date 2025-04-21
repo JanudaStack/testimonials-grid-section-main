@@ -59,28 +59,19 @@ body {
     background-color: var(--grey-500);
     color: var(--grey-100);
 }
-.testimonial-card:nth-child(2) {
-    /* grid-area: testi-2; */
-    background-color: var(--grey-500);
-    color: var(--grey-100);
-}
 
-.testimonial-card:nth-child(3) {
-    /* grid-area: testi-3; */
+.card-3,
+.card-5 {
     background-color: var(--white);
     color: var(--grey-500);
 }
 
-.testimonial-card:nth-child(4) {
-    /* grid-area: testi-4; */
+.card-4 {
     background-color: var(--dark-blue);
     color: var(--grey-200);
 }
 
-.testimonial-card:nth-child(5) {
-    /* grid-area: testi-5; */
-    background-color: var(--white);
-    color: var(--grey-500);
+.card-5 {
 }
 
 .author {
