@@ -80,9 +80,6 @@ main {
     color: var(--grey-200);
 }
 
-.card-5 {
-}
-
 .author {
     display: flex;
     gap: 1.5rem;
